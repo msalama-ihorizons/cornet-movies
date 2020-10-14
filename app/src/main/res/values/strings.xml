@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CorneteMovies</string>
+    <string name="tab_text_1">Discover</string>
+    <string name="tab_text_2">Search</string>
+
+    <string name="movie_poster_url">https://image.tmdb.org/t/p/w500%s</string>
+
+</resources>
