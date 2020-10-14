@@ -31,7 +31,7 @@ object DatabaseModule {
 
     @Provides
     fun provideKeyWordsDao(db: MoviesDatabase): RecentSearchDao {
-        return db.keywordsDao()
+        return db.recentSearchDao()
     }
 
 }

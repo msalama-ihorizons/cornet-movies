@@ -9,5 +9,5 @@ import androidx.room.RoomDatabase
 
 @Database(entities = [RecentSearch::class], version = 3, exportSchema = false)
 abstract class MoviesDatabase: RoomDatabase() {
-    abstract fun keywordsDao(): RecentSearchDao
+    abstract fun recentSearchDao(): RecentSearchDao
 }
